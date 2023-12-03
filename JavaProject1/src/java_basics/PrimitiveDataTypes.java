@@ -14,6 +14,11 @@ public class PrimitiveDataTypes {
     // В одной строке задекларируй и проинициализируй тип данных
     // Во второй строке добавь её в новый System.out.println
 
+
+
+    // Ты не использовал System.out.println
+    // + Надо запускать программу. Твоя не компилируется. Надо исправить то, что подчеркнуто красным и запустить программу (зелёная стрелка)!
+
     public static void main(String[] args) {
         byte myByte = 100;
         System.out.println(myByte);
