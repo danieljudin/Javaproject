@@ -17,13 +17,19 @@ public class PrimitiveDataTypes {
     public static void main(String[] args) {
         byte myByte = 100;
         System.out.println(myByte);
+         byte num = 100; // 8бит    -128 + 127
+         short num1 = 123; // 16 бит -32768 + 32767
+         int num2 = 141; // 32 бит -2147483648 + 2147483648
+         long num3 = 123; // 64бит -1 878 292 7639 +1 878 292 7639
 
+         float num4 = 1.1f; // 32    1.123456   6-7
+         double num5 = 1.11; // 64    15
 
+        char sym = '\u+121212'; // ♣ 16 // бит
+
+        boolean isTrue = false; // 1 бит true;
 
     }
-
-
-
 }
 
 
